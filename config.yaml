@@ -1,4 +1,5 @@
 listen: :80
+
 auth:
   type: password
   password: test123
