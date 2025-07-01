@@ -1,16 +1,14 @@
 listen: :443
+tls:
+  cert: /etc/hysteria/hysteria.crt
+  key: /etc/hysteria/hysteria.key
 
 auth:
   type: password
-  password: test123
+  password: ali12345
 
-masquerade:
-  type: proxy
-  proxy:
-    url: https://www.google.com
+bandwidth:
+  up: 100 mbps
+  down: 100 mbps
 
-acme:
-  domains:
-    - hysteria-on-railway.onrender.com
-  email: majdiisfahani@gmail.com
-
+disable_udp: false
