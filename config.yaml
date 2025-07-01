@@ -1,4 +1,4 @@
-listen: :80
+listen: :443
 
 auth:
   type: password
@@ -8,3 +8,8 @@ masquerade:
   type: proxy
   proxy:
     url: https://www.google.com
+
+acme:
+  domains:
+    - hysteria-on-railway.onrender.com
+  email: your-email@example.com
