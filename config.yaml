@@ -1,0 +1,7 @@
+listen: :443
+tls:
+  cert: /etc/hysteria/fullchain.crt
+  key: /etc/hysteria/private.key
+auth:
+  password: yourStrongPasswordHere
+disable_udp: false
