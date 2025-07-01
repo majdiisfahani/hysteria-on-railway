@@ -1,7 +1,9 @@
-listen: :443
-tls:
-  cert: /etc/hysteria/fullchain.crt
-  key: /etc/hysteria/private.key
+listen: :80
 auth:
-  password: yourStrongPasswordHere
-disable_udp: false
+  type: password
+  password: test123
+
+masquerade:
+  type: proxy
+  proxy:
+    url: https://www.google.com
