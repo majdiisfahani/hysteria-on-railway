@@ -1,4 +1,5 @@
 listen: :443
+
 tls:
   cert: /etc/hysteria/hysteria.crt
   key: /etc/hysteria/hysteria.key
