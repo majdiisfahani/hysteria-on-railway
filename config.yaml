@@ -4,6 +4,10 @@ tls:
   cert: /etc/hysteria/hysteria.crt
   key: /etc/hysteria/hysteria.key
 
+auth:
+  type: password
+  password: ali12345
+
 bandwidth:
   up: 100 mbps
   down: 100 mbps
