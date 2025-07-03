@@ -1,4 +1,4 @@
-listen: :443
+listen: :8443
 
 tls:
   cert: /etc/hysteria/hysteria.crt
@@ -12,4 +12,4 @@ bandwidth:
   up: 100 mbps
   down: 100 mbps
 
-disable_udp: true
+disable_udp: false
