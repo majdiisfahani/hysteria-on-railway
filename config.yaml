@@ -1,4 +1,4 @@
-listen: :2096
+listen: :443
 
 tls:
   cert: /etc/hysteria/hysteria.crt
