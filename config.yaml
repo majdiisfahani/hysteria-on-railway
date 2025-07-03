@@ -5,11 +5,8 @@ tls:
   key: /etc/hysteria/hysteria.key
 
 auth:
-  type: password
-  password: ali12345
+  type: none
 
 bandwidth:
   up: 100 mbps
   down: 100 mbps
-
-disable_udp: false
