@@ -12,4 +12,4 @@ bandwidth:
   up: 100 mbps
   down: 100 mbps
 
-disable_udp: false
+disable_udp: true
